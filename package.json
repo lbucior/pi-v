@@ -1,0 +1,15 @@
+{
+  "name": "@pi-v/monorepo",
+  "version": "0.0.1",
+  "author": {
+    "name": "Lucas"
+  },
+  "private": true,
+  "scripts": {
+    "dev": "yarn workspace @pi-v/apis start:dev & yarn workspace @pi-v/app start:dev"
+  },
+  "workspaces": [
+    "client/*",
+    "server/*"
+  ]
+}
